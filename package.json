@@ -1,0 +1,24 @@
+{
+  "name": "git-test-for-node",
+  "version": "1.0.0",
+  "description": "This is a test folder to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaya2016/git-test-for-node.git"
+  },
+  "author": "Tanaya Datta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanaya2016/git-test-for-node/issues"
+  },
+  "homepage": "https://github.com/tanaya2016/git-test-for-node#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
